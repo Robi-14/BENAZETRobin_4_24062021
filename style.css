@@ -26,7 +26,10 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.description-1{font-size: 15px; }
+blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; font-size: 20px;font-style: italic;margin-bottom: 0px; padding-bottom: 0;}
+.collaborer{font-size: 15px;}
+.tc-vert{color:green}
 .bloc {
     width: 100%;
     clear: both;
@@ -775,11 +778,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: orange;
     color: #FFFFFF!important;
 }
 
@@ -789,7 +792,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: yellow!important;
 }
 
 .ltc-white:hover {
