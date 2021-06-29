@@ -82,6 +82,11 @@ blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; 
 .bg-t-edge {
     background: top no-repeat;
 }
+.portfolio-thumb{
+    width: 320px;
+    height: 320px;
+    
+}
 
 .bloc-bg-texture::before {
     content: "";
@@ -535,7 +540,7 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    
     text-align: center;
 }
 
@@ -1042,4 +1047,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .footer{display: flex;
+            flex-direction: row;
+            justify-content: center;}
+    .social{ margin-right: 0; margin-left: 15px;max-width: none;}
 }
+.img-responsive{display: flex;justify-content: center;}
+.yellow{color: yellow!important;}
+.tc-vert{color: orange!important;position: relative;}
