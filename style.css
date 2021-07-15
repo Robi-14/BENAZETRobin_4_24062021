@@ -33,6 +33,16 @@ blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; 
 .size-desc-contact{
     font-size: 15px;
 }
+.linkcontact{font-size: 15px;margin-bottom: 10px;}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.contact{ font-size: 20px;}
 .bloc {
     width: 100%;
     clear: both;
@@ -853,6 +863,7 @@ h4 {
     }
 }
 
+@media screen and (min-width : 767px){.info{margin-top: 90px;}}
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -860,18 +871,21 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .info{margin-top: 90px;}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    }
+    }.
+   
 }
 
 @media (max-width: 991px) {
