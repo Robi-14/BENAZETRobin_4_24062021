@@ -30,6 +30,9 @@ a:hover {
 blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; font-size: 20px;font-style: italic;margin-bottom: 0px; padding-bottom: 0;}
 .collaborer{font-size: 15px;}
 .tc-vert{color:green}
+.size-desc-contact{
+    font-size: 15px;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -45,6 +48,7 @@ blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; 
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+
 }
 
 .bloc-lg {
@@ -307,12 +311,14 @@ blockquote{border-left: none; color: #575757!important;font-family:  Helvetica; 
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+
 }
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1055,3 +1061,4 @@ h4 {
 .img-responsive{display: flex;justify-content: center;}
 .yellow{color: yellow!important;}
 .tc-vert{color: orange!important;position: relative;}
+cite{font-family: Helvetica; font-size: 15px;color:#575757!important}
