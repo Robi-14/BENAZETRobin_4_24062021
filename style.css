@@ -1073,6 +1073,6 @@ h4 {
     .social{ margin-right: 0; margin-left: 15px;max-width: none;}
 }
 .img-responsive{display: flex;justify-content: center;}
-.yellow{color: whitesmoke!important;}
+.yellow{color: rgba(255, 255, 255, .6)!important;}
 .tc-vert{color: orange!important;position: relative;}
 cite{font-family: Helvetica; font-size: 15px;color:#575757!important}
