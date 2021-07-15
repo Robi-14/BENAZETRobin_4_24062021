@@ -803,7 +803,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: orange;
+    background: #c27956;
     color: #FFFFFF!important;
 }
 
@@ -884,8 +884,8 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    }.
-   
+    }
+  
 }
 
 @media (max-width: 991px) {
@@ -1073,6 +1073,6 @@ h4 {
     .social{ margin-right: 0; margin-left: 15px;max-width: none;}
 }
 .img-responsive{display: flex;justify-content: center;}
-.yellow{color: yellow!important;}
+.yellow{color: whitesmoke!important;}
 .tc-vert{color: orange!important;position: relative;}
 cite{font-family: Helvetica; font-size: 15px;color:#575757!important}
